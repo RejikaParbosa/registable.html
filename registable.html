@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Form</title>
+		<style>
+			form{
+				border: 1px black solid;
+				background-color: teal;
+				}
+		</style>
+	</head>
+	<body>
+	<body style="background-color: salmon;">
+		<h3><u>Registration Form</u></h3>
+		<form>
+			<table>
+				<tr>
+					<td>Name:</td>
+						<td><input type="text" name="fname" placeholder="First Name">
+						<input type="text" name="mname" placeholder="Middle Name">
+						<input type="text" name="lname" placeholder="Last Name"></td>
+				</tr>
+					<td>Email ID</td>
+					<td><input type="email" name="email_id" size="50" placeholder="youremail@server.com"></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>
+						<label><input type="radio" name="gender" value="male">Male</label>
+						<label><input type="radio" name="gender" checked value="female">Female</label>
+						<label><input type="radio" name="gender" value="other">Other</label>
+					</td>
+				<tr>	
+					<td>Upload Photo:</td>
+					<td><input type="file" name="photo"></td>
+				</tr>
+				<tr>	
+					<td>Hobbies:</td>
+					<td>
+						<label><input type="checkbox" name="hobby" value="singing"> Singing </label>
+						<label><input type="checkbox" name="hobby" value="dancing"> Dancing </label>
+						<label><input type="checkbox" name="hobby" value="drawing"> Drawing </label>
+						<label><input type="checkbox" name="hobby" value="gaming"> Gaming </label>
+						<label><input type="checkbox" name="hobby" value="reading"> Reading </label>
+					</td>
+				</tr>	
+					<td>Date of Birth:</td>
+					<td><input type="date" name="dob"></td>
+				</tr>
+				<tr>
+					<td><Address:</td>
+					<td><textarea rows="5" cols="50"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Register">
+					<input type="reset" value="Clear"></td>
+				</tr>
+				
+			</tables>
+		</form>
+	</body>
+</html>
+
